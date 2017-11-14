@@ -13,6 +13,8 @@
 		9CF6069B1FBA840000B72C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF606991FBA840000B72C80 /* Main.storyboard */; };
 		9CF6069D1FBA840000B72C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF6069C1FBA840000B72C80 /* Assets.xcassets */; };
 		9CF606A01FBA840000B72C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF6069E1FBA840000B72C80 /* LaunchScreen.storyboard */; };
+		9CF606A91FBA845000B72C80 /* CAShapeLayer+ViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF606A81FBA845000B72C80 /* CAShapeLayer+ViewMask.m */; };
+		9CF606AB1FBA87B900B72C80 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CF606AA1FBA87B800B72C80 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		9CF6069C1FBA840000B72C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CF6069F1FBA840000B72C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF606A11FBA840000B72C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF606A71FBA845000B72C80 /* CAShapeLayer+ViewMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+ViewMask.h"; sourceTree = "<group>"; };
+		9CF606A81FBA845000B72C80 /* CAShapeLayer+ViewMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+ViewMask.m"; sourceTree = "<group>"; };
+		9CF606AA1FBA87B800B72C80 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +65,11 @@
 			children = (
 				9CF606931FBA840000B72C80 /* AppDelegate.h */,
 				9CF606941FBA840000B72C80 /* AppDelegate.m */,
+				9CF606AA1FBA87B800B72C80 /* 1.jpg */,
 				9CF606961FBA840000B72C80 /* ViewController.h */,
 				9CF606971FBA840000B72C80 /* ViewController.m */,
+				9CF606A71FBA845000B72C80 /* CAShapeLayer+ViewMask.h */,
+				9CF606A81FBA845000B72C80 /* CAShapeLayer+ViewMask.m */,
 				9CF606991FBA840000B72C80 /* Main.storyboard */,
 				9CF6069C1FBA840000B72C80 /* Assets.xcassets */,
 				9CF6069E1FBA840000B72C80 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF606A01FBA840000B72C80 /* LaunchScreen.storyboard in Resources */,
+				9CF606AB1FBA87B900B72C80 /* 1.jpg in Resources */,
 				9CF6069D1FBA840000B72C80 /* Assets.xcassets in Resources */,
 				9CF6069B1FBA840000B72C80 /* Main.storyboard in Resources */,
 			);
@@ -152,6 +161,7 @@
 			files = (
 				9CF606981FBA840000B72C80 /* ViewController.m in Sources */,
 				9CF606951FBA840000B72C80 /* AppDelegate.m in Sources */,
+				9CF606A91FBA845000B72C80 /* CAShapeLayer+ViewMask.m in Sources */,
 				9CF606921FBA840000B72C80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +288,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justsee.View-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,6 +300,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justsee.View-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
